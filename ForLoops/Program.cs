@@ -16,6 +16,7 @@ namespace ForLoops
             {
                 Console.WriteLine("1 : Display First 10 Natyral Number");
                 Console.WriteLine("2 : Sum Of Ten Natural Number");
+                Console.WriteLine("3 : Sum Of N Natural Number");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -27,6 +28,10 @@ namespace ForLoops
                     case 2:
                         SumOfNumber sumOfNumber = new SumOfNumber();
                         sumOfNumber.Number();
+                        break;
+                    case 3:
+                        NTerm term = new NTerm();
+                        term.Sum();
                         break;
                     case 12:
                         flag = false;
