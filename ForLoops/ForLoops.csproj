@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindSum.cs" />
     <Compile Include="NaturalNumber.cs" />
     <Compile Include="NTerm.cs" />
     <Compile Include="Program.cs" />
