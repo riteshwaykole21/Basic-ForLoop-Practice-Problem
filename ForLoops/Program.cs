@@ -18,6 +18,7 @@ namespace ForLoops
                 Console.WriteLine("2 : Sum Of Ten Natural Number");
                 Console.WriteLine("3 : Sum Of N Natural Number");
                 Console.WriteLine("4 : Enter Ten Natural Number");
+                Console.WriteLine("5 : Cube Of The Number");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -37,6 +38,10 @@ namespace ForLoops
                     case 4:
                         FindSum findSum = new FindSum();
                         findSum.Find();
+                        break;
+                    case 5:
+                        CubeNumber cubeNumber = new CubeNumber();
+                        cubeNumber.cube();
                         break;
                     case 12:
                         flag = false;
