@@ -20,6 +20,7 @@ namespace ForLoops
                 Console.WriteLine("4 : Enter Ten Natural Number");
                 Console.WriteLine("5 : Cube Of The Number");
                 Console.WriteLine("6 : Multiplication Table");
+                Console.WriteLine("7 : pattern of ");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -47,6 +48,10 @@ namespace ForLoops
                     case 6:
                         Table table = new Table();
                         table.Program();
+                        break;
+                    case 7:
+                        Trangle trangle = new Trangle();
+                        trangle.Input();
                         break;
                     case 12:
                         flag = false;
