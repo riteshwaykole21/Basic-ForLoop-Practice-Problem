@@ -23,6 +23,7 @@ namespace ForLoops
                 Console.WriteLine("7 : pattern of ");
                 Console.WriteLine("8 : Number Pattern");
                 Console.WriteLine("9 : Same Number Pattern");
+                Console.WriteLine("10 : Increased Pattern");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -62,6 +63,10 @@ namespace ForLoops
                     case 9:
                         Same same = new Same();
                         same.Pattern();
+                        break;
+                    case 10:
+                        Increased increased = new Increased();
+                        increased.Number();
                         break;
                     case 12:
                         flag = false;

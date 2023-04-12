@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CubeNumber.cs" />
     <Compile Include="FindSum.cs" />
+    <Compile Include="Increased.cs" />
     <Compile Include="NaturalNumber.cs" />
     <Compile Include="NTerm.cs" />
     <Compile Include="Pattern.cs" />
