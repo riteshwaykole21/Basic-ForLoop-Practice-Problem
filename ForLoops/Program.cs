@@ -19,6 +19,7 @@ namespace ForLoops
                 Console.WriteLine("3 : Sum Of N Natural Number");
                 Console.WriteLine("4 : Enter Ten Natural Number");
                 Console.WriteLine("5 : Cube Of The Number");
+                Console.WriteLine("6 : Multiplication Table");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -42,6 +43,10 @@ namespace ForLoops
                     case 5:
                         CubeNumber cubeNumber = new CubeNumber();
                         cubeNumber.cube();
+                        break;
+                    case 6:
+                        Table table = new Table();
+                        table.Program();
                         break;
                     case 12:
                         flag = false;
