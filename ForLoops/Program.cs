@@ -21,6 +21,7 @@ namespace ForLoops
                 Console.WriteLine("5 : Cube Of The Number");
                 Console.WriteLine("6 : Multiplication Table");
                 Console.WriteLine("7 : pattern of ");
+                Console.WriteLine("8 : Number Pattern");
                 Console.WriteLine("Enter A Option");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch(Option)
@@ -52,6 +53,10 @@ namespace ForLoops
                     case 7:
                         Trangle trangle = new Trangle();
                         trangle.Input();
+                        break;
+                    case 8:
+                        Pattern pattern = new Pattern();
+                        pattern.Number();
                         break;
                     case 12:
                         flag = false;
