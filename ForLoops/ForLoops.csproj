@@ -50,6 +50,7 @@
     <Compile Include="Pattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Same.cs" />
     <Compile Include="SumOfNumber.cs" />
     <Compile Include="Table.cs" />
     <Compile Include="Trangle.cs" />
